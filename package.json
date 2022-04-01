@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "lit": "^2.2.1",
     "yarn": "^1.22.18"
   },
   "name": "a.s.game",
