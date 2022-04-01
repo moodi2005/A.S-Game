@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.18"
+  },
+  "name": "a.s.game",
+  "description": "Game Pantomime",
+  "type": "module",
+  "version": "0.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "l": "yarn lint",
+    "b": "yarn build",
+    "cb": "npm-run-all --sequential clean build",
+    "s": "yarn serve:dev",
+    "w": "yarn watch",
+    "build": "npm-run-all --sequential build:ts build:es",
+    "build:ts": "tsc --build --pretty",
+    "build:es": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodi2005/A.S.Game.git"
+  },
+  "author": "Mohammad Mahdi Moodi <mohammadmahdimoodi2005@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,75 @@
+<!--
+Copyright (c) IBM, Corp. and its affiliates.
+This source code is licensed under the MIT license found in the
+LICENSE file in the root directory of this source tree.
+-->
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>A.S.Game</title>
+    <meta name="description" content="Game Pantomime" />
+
+    <base href="/" />
+
+    <link rel="icon" href="images/favicon.ico" />
+
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <meta name="theme-color" content="#2b2b43" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="A.S." />
+
+    <link rel="apple-touch-icon" href="images/manifest/icon-192x192.png" />
+
+    <link rel="canonical" href="/" />
+
+    <meta property="og:title" content="A.S." />
+    <meta property="og:description" content="Game Pantomime" />
+    <meta property="og:image" content="/images/open-graph/cover.png" />
+    <meta property="og:image:alt" content="A.S.logo" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:url" content="/" />
+
+    <style>
+      html,
+      body,
+      app-index {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      noscript {
+        display: block;
+        margin: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <app-index></app-index>
+
+    <noscript>
+        <div class="noscript">
+          <p dir="ltr">
+            Please enable JavaScript to view this website.
+          </p>
+          <p dir="rtl">
+            لطفا JavaScript را برای مشاهده این وب سایت فعال کنید.
+          </p>
+        </div>
+      </noscript>
+
+    <script type="module" src="src/components/app-index.ts"></script>
+  </body>
+</html>
