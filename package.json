@@ -17,7 +17,8 @@
     "w": "yarn watch",
     "build": "npm-run-all --sequential build:ts build:es",
     "build:ts": "tsc --build --pretty",
-    "build:es": "rollup -c"
+    "build:es": "rollup -c",
+    "start": "cd server/src && deno run --allow-all server.ts"
   },
   "repository": {
     "type": "git",
